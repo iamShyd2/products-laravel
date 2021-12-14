@@ -9,7 +9,7 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-header">Shortage</div>
-            <table class="table">
+            <table class="table table-responsive">
               <thead>
                 <tr>
                   <th scope="col">Image</th>

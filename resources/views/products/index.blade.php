@@ -9,7 +9,7 @@
         <div class="col-md-12">
           <a href="{{ route("products.create") }}" class="btn btn-primary mb-2">New Product</a>
           <div class="card">
-            <table class="table table-striped">
+            <table class="table table-striped table-responsive-md">
               <thead>
                 <tr>
                   <th scope="col">#</th>

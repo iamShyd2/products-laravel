@@ -3,4 +3,14 @@
   left: 0;
   top: 0;
   bottom: 0;
+  width: 280px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .closed{
+    width: 0;
+    display: none;
+  }
 }

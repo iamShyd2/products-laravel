@@ -1,4 +1,4 @@
-<div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 bg-dark shadow" style="width: 280px;">
+<div id="sidebar" class="p-3 bg-dark shadow closed">
   <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-center text-decoration-none">
     <img class="img-responsive" src="/logo.png" />
   </a>

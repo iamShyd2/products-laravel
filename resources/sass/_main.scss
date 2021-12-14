@@ -4,12 +4,25 @@
   margin-left: 280px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #main{
+    margin-left: 0px;
+  }
+
+  #nav{
+    z-index: 2000;
+  }
+  
+}
+
 #app{
   margin-top: 70px;
 }
 
 body{
   background-color: #ebe9e9;
+  overflow-x: hidden;
 }
 
 .img-responsive{
