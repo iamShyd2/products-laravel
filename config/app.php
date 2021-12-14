@@ -175,8 +175,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        LaravelDaily\Invoices\InvoiceServiceProvider::class,
-
     ],
 
     /*
@@ -232,9 +230,5 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
-    "email" => env("EMAIL"),
-    "phone" => env("PHONE"),
-    "password" => env("PASSWORD"),
 
 ];

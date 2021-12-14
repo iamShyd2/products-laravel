@@ -11,3 +11,18 @@
 body{
   background-color: #ebe9e9;
 }
+
+.img-responsive{
+  width: 100%;
+}
+
+.cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 4;
+}
