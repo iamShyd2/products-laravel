@@ -10,7 +10,7 @@
               <div class="card">
                 <div class="card-header">{{ __('Product') }}</div>
                 <div class="card-body">
-                  <div style="width: 470px;">
+                  <div>
                     <img src="{{ $product->image }}" class="img-responsive" />
                   </div>
                   <dl class="form-group">

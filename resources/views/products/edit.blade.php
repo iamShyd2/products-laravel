@@ -15,7 +15,7 @@
                           @csrf
                           {{ method_field('PUT') }}
 
-                          @include('shared/_image', [$product])
+                          @include('shared/_image', ["product" => $product])
 
                           @include('shared/_text', ["name" => "name", "value" => $product->name])
                           @include('shared/_text', ["name" => "cost_price", "value" => $product->cost_price])

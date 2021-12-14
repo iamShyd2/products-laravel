@@ -1,5 +1,5 @@
-<div style="width: 470px;">
-  <img id="image-view" src="{{ $product-> image ?? old('image') }}" class="img-responsive" />
+<div>
+  <img id="image-view" src="{{ $product->image ?? old('image') }}" class="img-responsive" />
 </div>
 <div class="form-group">
   <div style="position: relative;">

@@ -35,7 +35,7 @@ class ProductsController extends Controller
     {
         $params = $this->buildImage($request);
         $product = Product::create($params);
-        if(bool($product)) return $this->redirectToProduct($product, "created");
+        if((bool) $product) return $this->redirectToProduct($product, "created");
         return redirect()->route("products.create")->with("error", "Failed to create product");
     }
 
