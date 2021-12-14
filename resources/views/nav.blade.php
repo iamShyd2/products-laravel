@@ -34,12 +34,12 @@
             </ul>
             <ul class="navbar-nav ml-auto d-block d-md-none">
               <li class="nav-item">
-                <a href="{{ route("root") }}" class="nav-link {{ Request::is('/') ? 'active' : 'text-white' }}">
+                <a href="{{ route("root") }}" class="nav-link {{ Request::is('/') ? 'active' : '' }}">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route("products.index") }}" class="nav-link {{ Request::is('products') ? 'active' : 'text-white' }}">
+                <a href="{{ route("products.index") }}" class="nav-link {{ Request::is('products') ? 'active' : '' }}">
                   Products
                 </a>
               </li>
