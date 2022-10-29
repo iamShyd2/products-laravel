@@ -6,7 +6,7 @@
     @include('nav', ['title' => "Home"])
     <div id="app" class="container-fluid">
       <div class="row mb-4">
-        <div class="col-lg-6">
+        <div class="col-lg-3">
           <div class="card">
             <div class="card-header">Shortage</div>
             <table class="table table-responsive">
